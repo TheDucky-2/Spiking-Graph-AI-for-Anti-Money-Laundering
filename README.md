@@ -60,15 +60,23 @@ This hybrid approach captures **where**, **how**, and **when** suspicious activi
 ## Project Structure
 
 ├── data/
+
 │ └── elliptic_txs_*.csv # Raw dataset files (Kaggle)
+
 ├── src/
+
 │ ├── preprocessing.py # Graph + feature loader
+
 │ ├── encoder.py # Spike encoders for features/time
+
 │ ├── model.py # GNN + SNN hybrid architecture
+
 │ ├── train.py # Training loop
 │ └── evaluate.py # Evaluation and visualization
+
 ├── notebooks/
 │ └── analysis.ipynb # EDA and prototyping
+
 ├── README.md
 └── requirements.txt
 
