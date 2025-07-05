@@ -1,4 +1,5 @@
 # Spiking-Graph-AI-for-Anti-Money-Laundering
+---
 
 > **Hybrid GNN + SNN model** for detecting illicit transactions in a Bitcoin network using the [Elliptic dataset](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set).
 
